@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast food pizza</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <i class='bx bxs-pizza'></i>
+            <h1>pizza</h1>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li id="click-menu"><a href="#">Menu</a></li>
+            <li id="click-contact"><a href="#">Contact</a></li>
+        </ul>
+        <button>
+                <span class="circle1"></span>
+                <span class="circle2"></span>
+                <span class="circle3"></span>
+                <span class="circle4"></span>
+                <span class="circle5"></span>
+                <span class="text" id="submit">order</span>
+            </button>
+    </nav>
+
+    <main class="home">
+        <div class="p">
+            <h1>Fast food pizza</h1>
+            <p>Fast food pizza is a popular type of pizza 
+                that is typically served as a quick and easy meal.
+                It is typically made with a combination of 
+                ingredients such as tomato sauce, cheese, and 
+                toppings such as pepperoni, bacon, and onions.
+                lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quae, quos.
+                lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+        <img src="img/pizza1.png" alt="pizza">
+    </main>
+
+
+    <main class="menu hidden" id="menu">     
+        <!-- Pizza 1 -->
+  <div class="card" style="width: 18rem;">
+    <img src="img/margherita.jpg" class="card-img-top" alt="Margherita Pizza">
+    <div class="card-body">
+      <h5 class="card-title">Margherita</h5>
+      <p class="card-text">Tomato sauce, mozzarella, and fresh basil.</p>
+      <a href="#" class="btn btn-primary">Order Now</a>
+    </div>
+  </div>
+
+  <!-- Pizza 2 -->
+  <div class="card" style="width: 18rem;">
+    <img src="img/pepperoni.jpg" class="card-img-top" alt="Pepperoni Pizza">
+    <div class="card-body">
+      <h5 class="card-title">Pepperoni</h5>
+      <p class="card-text">Tomato sauce, mozzarella, and pepperoni slices.</p>
+      <a href="#" class="btn btn-primary">Order Now</a>
+    </div>
+  </div>
+
+  <!-- Pizza 3 -->
+  <div class="card" style="width: 18rem;">
+    <img src="img/vegetarian.jpg" class="card-img-top" alt="Vegetarian Pizza">
+    <div class="card-body">
+      <h5 class="card-title">Vegetarian</h5>
+      <p class="card-text">Tomato sauce, mozzarella, bell peppers, olives, onions, mushrooms.</p>
+      <a href="#" class="btn btn-primary">Order Now</a>
+    </div>
+  </div>
+
+  <!-- Pizza 4 -->
+  <div class="card" style="width: 18rem;">
+    <img src="img/hawaiian.jpg" class="card-img-top" alt="Hawaiian Pizza">
+    <div class="card-body">
+      <h5 class="card-title">Hawaiian</h5>
+      <p class="card-text">Tomato sauce, mozzarella, ham, and pineapple.</p>
+      <a href="#" class="btn btn-primary">Order Now</a>
+    </div>
+  </div>
+
+  <!-- Pizza 5 -->
+  <div class="card" style="width: 18rem;">
+    <img src="img/Four Cheese.jpg" class="card-img-top" alt="Four Cheese Pizza">
+    <div class="card-body">
+      <h5 class="card-title">Four Cheese</h5>
+      <p class="card-text">Mozzarella, cheddar, parmesan, and gorgonzola.</p>
+      <a href="#" class="btn btn-primary">Order Now</a>
+    </div>
+  </div>
+
+  <!-- Pizza 6 -->
+  <div class="card" style="width: 18rem;">
+    <img src="img/spicy.jpg" class="card-img-top" alt="Spicy Pizza">
+    <div class="card-body">
+      <h5 class="card-title">Spicy</h5>
+      <p class="card-text">Tomato sauce, mozzarella, chili flakes, spicy sausage, jalapeños.</p>
+      <a href="#" class="btn btn-primary">Order Now</a>
+    </div>
+  </div>
+ </main>
+
+ <main class="contact hidden" id="click-contact">
+    <h2>contact us</h2>
+    <p>lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Quae, quos.
+        lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+    <div class="icons">
+        <a href="#"><i class='bx bxl-facebook' ></i></a>
+        <a href="#"><i class='bx bx-phone' ></i></a>
+        <a href="#"><i class='bx bxl-instagram' ></i></i></a>
+    </div>
+  </main>
+
+ <script src="js/script.js"></script>
+</body>
+</html>
