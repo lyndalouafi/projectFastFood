@@ -26,7 +26,7 @@ if(submit) {
     submit.addEventListener('click',function(e){
         e.preventDefault();
         home.classList.add('hidden');
-        
+        contact.classList.add('hidden');
         mainMenu.classList.remove('hidden');
     })
 }
