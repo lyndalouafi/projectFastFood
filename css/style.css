@@ -180,7 +180,7 @@ img {
   flex-direction: column;
   gap: 10px;
   justify-content: center;
-  height: 500px; /* or a fixed height, e.g. 500px */
+  height: 100vh; /* or a fixed height, e.g. 500px */
   margin: 0 auto;
 }
 

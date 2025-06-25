@@ -12,6 +12,7 @@ if(clickMenu) {
         e.preventDefault();
         mainMenu.classList.remove('hidden');
         home.classList.add('hidden');
+        contact.classList.add('hidden');
     })
 }
 
@@ -20,6 +21,7 @@ if(clickContact) {
         e.preventDefault();
         contact.classList.remove('hidden');
         mainMenu.classList.add('hidden');
+        home.classList.add('hidden');
     })
 }
 if(submit) {
